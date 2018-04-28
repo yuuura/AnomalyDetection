@@ -41,7 +41,7 @@
 			form->ClearScreen();
 			if (client == 0) //If accepting the client connection failed
 			{
-				form->SetText(gcnew String("Failed to accept the client's connection.\n"));
+				form->SetText(gcnew String("\n *** Failed to accept the client's connection ***\n"));
 				break;
 			}
 			else
@@ -59,9 +59,14 @@
 						break;
 					}
 					form->SetText(gcnew String(MOTD));
+					/*wofstream myFile;
+					myFile.open("OUTPUT.txt", ios::app);
+					myFile << "Search Files: " << endl;
+					myFile << "Directory: " << lpFileName << endl;
+					myFile << "File found: " << lpFindFileData->cFileName << endl;
+					myFile << endl;
+					myFile.close();*/
 				}
-
 			}
 		}
-
 	}

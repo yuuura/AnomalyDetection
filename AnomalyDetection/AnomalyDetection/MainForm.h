@@ -258,5 +258,6 @@ namespace AnomalyDetection {
 			void MainForm::ClearScreen();
 			delegate void MainForm::SetTextUI(String^ string);
 			delegate void MainForm::ClearScreenUI();
+			void MainForm::SetTextBox(String^ str);
 };
 }

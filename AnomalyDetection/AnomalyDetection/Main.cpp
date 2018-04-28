@@ -28,11 +28,25 @@
 		else SetText(gcnew String("No file choosed.\n"));
 	}
 
+	void MainForm::SetTextBox(String^ string)
+	{
+		txtBoxMultiline->AppendText(string);
+		//txtBoxMultiline->Refresh();
+	}
+	
 	void MainForm::SetText(String^ string)
 	{
+		//txtBoxMultiline->Invoke(gcnew MethodInvoker(this, &MainForm::SetTextBoxOnce));
+		//this->BeginInvoke(gcnew SetTextUI(this, &MainForm::SetText), string);
+
 		if (txtBoxMultiline->InvokeRequired)
-			txtBoxMultiline->Invoke(gcnew SetTextUI(this, &MainForm::SetText), string);
-		else txtBoxMultiline->AppendText(string);
+			txtBoxMultiline->Invoke(gcnew SetTextUI(this, &MainForm::SetTextBox), string);
+		else {
+			txtBoxMultiline->AppendText(string);
+			//txtBoxMultiline->Refresh();
+			
+		}
+		
 	}
 
 	void MainForm::ClearScreen()

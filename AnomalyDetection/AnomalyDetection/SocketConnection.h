@@ -7,6 +7,7 @@
 #include "MainForm.h"
 
 using namespace AnomalyDetection;
+using namespace System::Threading;
 
 ref class WinsockConnection
 {
@@ -20,4 +21,5 @@ private:
 public:
 	WinsockConnection(MainForm^ form);
 	void Connection();
+	//void WinsockConnection::Set()
 };

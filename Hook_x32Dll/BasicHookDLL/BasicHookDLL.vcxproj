@@ -155,16 +155,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CryptoFunctions.cpp" />
     <ClCompile Include="disassembler\hde32.c" />
     <ClCompile Include="disassembler\hde64.c" />
+    <ClCompile Include="FileHandle.cpp" />
+    <ClCompile Include="FileFunctions.cpp" />
     <ClCompile Include="hook.cpp" />
+    <ClCompile Include="WinsockFunctions.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CryptoFunctions.h" />
     <ClInclude Include="disassembler\hde32.h" />
     <ClInclude Include="disassembler\hde64.h" />
     <ClInclude Include="disassembler\table32.h" />
     <ClInclude Include="disassembler\table64.h" />
+    <ClInclude Include="FileHandle.h" />
+    <ClInclude Include="FileFunctions.h" />
     <ClInclude Include="hook.h" />
+    <ClInclude Include="WinsockFunctions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
