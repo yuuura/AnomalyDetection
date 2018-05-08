@@ -1,8 +1,10 @@
+/*
+This .cpp file is written to manage the relation between "CreateFile", "ReadFile" and WriteFile functions.
+*/
+
 #include "FileHandle.h"
 
-using namespace std;
-
-int maxArraySize = 1;
+int maxArraySize = 256;
 int currentIndex = 0;
 CreateFileHANDLE* fileHandleArray;
 
@@ -16,6 +18,10 @@ void FileHandleInitialize()
 		fileHandleArray[i].CreateFileHandle = NULL;
 		fileHandleArray[i].dwDesiredAccess = 0;
 		fileHandleArray[i].lpFileName = "";
+		fileHandleArray[i].dwCreationDisposition = NULL;
+		fileHandleArray[i].lpBuffer = NULL;
+		fileHandleArray[i].isRead = false;
+		fileHandleArray[i].isWritten = false;
 	}
 }
 
@@ -65,6 +71,37 @@ int FileHandleFindElement(HANDLE fileHandle)
 			end = true;
 		}
 		else index++;
+	}
+	return -1;
+}
+// Avoid loop while writeing small chunks of data to a file
+void FileHandleMarkAsWritten(HANDLE fileHandle)
+{
+	int index = FileHandleFindElement(fileHandle);
+	if (index >= 0)
+		fileHandleArray[index].isWritten = true;
+}
+// Avoid loop while reading small chunks of data from file
+void FileHandleMarkAsRead(HANDLE fileHandle)
+{
+	int index = FileHandleFindElement(fileHandle);
+	if (index >= 0)
+		fileHandleArray[index].isRead = true;
+}
+// Add buffer from file that was read
+void FileHandleAddBuffer(HANDLE fileHandle, LPVOID lpBuffer)
+{
+	int index = FileHandleFindElement(fileHandle);
+	if (index >= 0)
+		fileHandleArray[index].lpBuffer = lpBuffer;
+}
+// Find file by buffer value
+int FileHandleFindFileByBuffer(LPVOID lpBuffer)
+{
+	for (int i = 0; i < maxArraySize; i++)
+	{
+		if (fileHandleArray[i].lpBuffer == lpBuffer)
+			return i;
 	}
 	return -1;
 }

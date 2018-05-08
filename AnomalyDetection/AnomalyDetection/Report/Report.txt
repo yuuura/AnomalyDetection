@@ -1,0 +1,3451 @@
+5/8/2018 11:31:29 PM
+			*** Report file ***
+
+
+
+Winsock initialization started.
+Winsock initialization completed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 20
+(!) Possible of malware "Port Scanning" has been detected.
+A score 2 has been given to this profile.
+
+
+Port: 456
+(!) Possible of malware "Port Scanning" has been detected.
+A score 4 has been given to this profile.
+
+
+Port: 384
+(!) Possible of malware "Port Scanning" has been detected.
+A score 8 has been given to this profile.
+
+
+Port: 528
+(!) Possible of malware "Port Scanning" has been detected.
+A score 10 has been given to this profile.
+
+
+Port: 312
+
+
+Port: 239
+
+
+Port: 166
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Port: 93
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Connection to socket failed.
+
+
+Connection to socket failed.
+
+
+Connection to socket failed.
+
+
+Connection to socket failed.
+
+
+Connection to socket failed.
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 167
+
+
+Port: 529
+
+
+Port: 457
+
+
+Port: 385
+
+
+Port: 313
+
+
+Port: 240
+
+
+Port: 94
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Connection to socket failed.
+
+
+Connection to socket failed.
+
+
+Connection to socket failed.
+
+
+Connection to socket failed.
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 241
+
+
+Port: 386
+
+
+Port: 314
+
+
+Port: 168
+
+
+Port: 458
+
+
+Port: 95
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Connection to socket failed.
+
+
+Connection to socket failed.
+
+
+Connection to socket failed.
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 459
+
+
+Port: 387
+
+
+Port: 315
+
+
+Port: 169
+
+
+Port: 96
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Connection to socket failed.
+
+
+Connection to socket failed.
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 388
+
+
+Port: 316
+
+
+Port: 170
+
+
+Port: 97
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Connection to socket failed.
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 317
+
+
+Port: 171
+
+
+Port: 98
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 172
+
+
+Port: 99
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 100
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 21
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 530
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 242
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 460
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 389
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 318
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 173
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 101
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 22
+
+
+Connection to socket failed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 531
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 243
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 461
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 390
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 319
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 174
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 102
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 23
+
+
+Connection to socket failed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 532
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 244
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 462
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 391
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 320
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 175
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 103
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 24
+
+
+Connection to socket failed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 533
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 245
+
+
+Connection to socket failed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 463
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 392
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 321
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 176
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 104
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 25
+
+
+Connection to socket failed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 534
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 246
+
+
+Connection to socket failed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 464
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 393
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 322
+
+
+Connection to socket failed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 177
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 105
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 26
+
+
+Connection to socket failed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 535
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 247
+
+
+Connection to socket failed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 465
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 394
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 323
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 178
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 106
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 27
+
+
+Connection to socket failed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 536
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 248
+
+
+Connection to socket failed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 466
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 395
+
+
+Connection to socket failed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 324
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 179
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 107
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 28
+
+
+Connection to socket failed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 537
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 249
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 467
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 396
+
+
+Connection to socket failed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 325
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 180
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 108
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 29
+
+
+Connection to socket failed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 538
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 250
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 468
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Connection to socket failed.
+
+
+Port: 397
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Port: 326
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Connection to socket failed.
+
+
+Port: 327
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Port: 181
+
+
+Connection to socket failed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Connection to socket failed.
+
+
+Port: 109
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Port: 182
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 183
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 30
+
+
+Connection to socket failed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 539
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 251
+
+
+Connection to socket failed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 469
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 398
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 328
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 110
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 184
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 31
+
+
+Connection to socket failed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 540
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 252
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 470
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 399
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 329
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 111
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 185
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 32
+
+
+Connection to socket failed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 541
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 253
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 471
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 400
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 330
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 112
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 186
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 33
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 542
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 254
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 472
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 401
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 331
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 113
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 187
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 34
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 543
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 255
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 473
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 402
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 332
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 114
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 188
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 35
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 544
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 256
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 474
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 403
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 333
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 115
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 189
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 36
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 545
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 257
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 475
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 404
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 334
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 116
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 190
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 37
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 546
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 258
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 476
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 405
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 335
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 117
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 191
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 38
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 547
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 259
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 477
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 406
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 336
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 118
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 192
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 39
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 548
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 260
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 478
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 407
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 337
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 119
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 193
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 40
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 549
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 261
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 479
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 408
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 338
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 120
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 194
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 41
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 550
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 262
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 480
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 409
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 339
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 121
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 195
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 42
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 551
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 263
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 481
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 410
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 340
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 122
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 196
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 43
+
+
+Connection to socket failed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 552
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 264
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 482
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 411
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 341
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 123
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 197
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 44
+
+
+Connection to socket failed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 553
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 265
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 483
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 412
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 342
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 124
+
+
+Connection to socket failed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 198
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 45
+
+
+Connection to socket failed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 554
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket completed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Connection to socket failed.
+
+
+Port: 555
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Port: 266
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 267
+
+
+Port: 484
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 485
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 413
+
+
+Connection to socket failed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 343
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 125
+
+
+Connection to socket failed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 199
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 46
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 556
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 268
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 486
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 414
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 344
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 126
+
+
+Connection to socket failed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 200
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 47
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 557
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 269
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 487
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 415
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 345
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 127
+
+
+Connection to socket failed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 201
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 48
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 558
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 270
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 488
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 416
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 346
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 128
+
+
+Connection to socket failed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 202
+
+
+Connecting with IP address: 127.0.0.1
+This file is a threat.
+

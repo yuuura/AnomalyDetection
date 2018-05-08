@@ -155,24 +155,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CryptoFunctions.cpp" />
+    <ClCompile Include="Advapi32.cpp" />
     <ClCompile Include="disassembler\hde32.c" />
-    <ClCompile Include="disassembler\hde64.c" />
     <ClCompile Include="FileHandle.cpp" />
-    <ClCompile Include="FileFunctions.cpp" />
+    <ClCompile Include="Kernel32.cpp" />
     <ClCompile Include="hook.cpp" />
-    <ClCompile Include="WinsockFunctions.cpp" />
+    <ClCompile Include="Ws2_32.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CryptoFunctions.h" />
+    <ClInclude Include="Advapi32.h" />
     <ClInclude Include="disassembler\hde32.h" />
-    <ClInclude Include="disassembler\hde64.h" />
     <ClInclude Include="disassembler\table32.h" />
-    <ClInclude Include="disassembler\table64.h" />
     <ClInclude Include="FileHandle.h" />
-    <ClInclude Include="FileFunctions.h" />
+    <ClInclude Include="Kernel32.h" />
     <ClInclude Include="hook.h" />
-    <ClInclude Include="WinsockFunctions.h" />
+    <ClInclude Include="Ws2_32.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

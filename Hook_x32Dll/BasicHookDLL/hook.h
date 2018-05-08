@@ -9,15 +9,11 @@ typedef struct
 	DWORD length;
 } HOOK_ARRAY;
 
-typedef int (WINAPI *TdefOldMessageBoxA)(HWND hWnd, LPCSTR lpText, LPCTSTR lpCaption, UINT uType);
-typedef int (WINAPI *TdefOldMessageBoxW)(HWND hWnd, LPWSTR lpText, LPCTSTR lpCaption, UINT uType);
-
-//===========================================================================================
-
-int WINAPI NewMessageBoxA(HWND hWnd, LPCSTR lpText, LPCTSTR lpCaption, UINT uType);
-int WINAPI NewMessageBoxW(HWND hWnd, LPWSTR lpText, LPCTSTR lpCaption, UINT uType);
-
-//===========================================================================================
+char* ip = "127.0.0.1";
+int port = 35000;
 
 BOOL HookFunction(CHAR *dll, CHAR *name, LPVOID proxy, LPVOID original, PDWORD length);
-BOOL UnhookFunction(CHAR *dll, CHAR *name, LPVOID original, DWORD length);
+void HookAll();
+void SafeMemcpyPadded(LPVOID destination, LPVOID source, DWORD size);
+BOOL OpenConnection();
+void CloseConnection();

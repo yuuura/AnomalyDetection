@@ -21,48 +21,39 @@
     <ClCompile Include="disassembler\hde32.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="disassembler\hde64.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="FileHandle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CryptoFunctions.cpp">
+    <ClCompile Include="Advapi32.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FileFunctions.cpp">
+    <ClCompile Include="Kernel32.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="WinsockFunctions.cpp">
+    <ClCompile Include="Ws2_32.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="disassembler\hde32.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="disassembler\table32.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="disassembler\hde64.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="disassembler\table64.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="hook.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="FileHandle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CryptoFunctions.h">
+    <ClInclude Include="Advapi32.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FileFunctions.h">
+    <ClInclude Include="Kernel32.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="WinsockFunctions.h">
+    <ClInclude Include="Ws2_32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="disassembler\hde32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="disassembler\table32.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

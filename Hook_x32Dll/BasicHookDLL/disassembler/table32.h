@@ -1,9 +1,3 @@
-/*
- * Hacker Disassembler Engine 32 C
- * Copyright (c) 2008, Veacheslav Patkov
- * aLL rights reserved.
- *
- */
 
 #define C_NONE    0x00
 #define C_MODRM   0x01

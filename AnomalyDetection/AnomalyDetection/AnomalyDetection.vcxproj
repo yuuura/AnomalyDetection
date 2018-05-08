@@ -45,7 +45,7 @@
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v140</PlatformToolset>
     <CLRSupport>true</CLRSupport>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -132,14 +132,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Hook.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Profile.cpp" />
     <ClCompile Include="SocketConnection.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Hook.h" />
     <ClInclude Include="MainForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Main.h" />
+    <ClInclude Include="Profile.h" />
     <ClInclude Include="SocketConnection.h" />
   </ItemGroup>
   <ItemGroup>

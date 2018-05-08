@@ -1,10 +1,3 @@
-/*
- * Hacker Disassembler Engine 32 C
- * Copyright (c) 2008, Veacheslav Patkov
- * aLL rights reserved.
- *
- */
-
 #include <stdint.h>
 #include <string.h>
 

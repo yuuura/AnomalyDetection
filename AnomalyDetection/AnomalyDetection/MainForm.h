@@ -42,8 +42,10 @@ namespace AnomalyDetection {
 
 	private: System::Windows::Forms::Label^  label1;
 	private: System::Windows::Forms::GroupBox^  groupBox2;
-	private: System::Windows::Forms::Button^  button2;
-	private: System::Windows::Forms::TextBox^  textBox3;
+	private: System::Windows::Forms::Button^  btnViewReport;
+
+	private: System::Windows::Forms::TextBox^  txtScore;
+
 
 
 	private: System::Windows::Forms::Label^  label3;
@@ -75,8 +77,8 @@ namespace AnomalyDetection {
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->groupBox2 = (gcnew System::Windows::Forms::GroupBox());
 			this->txtBoxMultiline = (gcnew System::Windows::Forms::RichTextBox());
-			this->button2 = (gcnew System::Windows::Forms::Button());
-			this->textBox3 = (gcnew System::Windows::Forms::TextBox());
+			this->btnViewReport = (gcnew System::Windows::Forms::Button());
+			this->txtScore = (gcnew System::Windows::Forms::TextBox());
 			this->label3 = (gcnew System::Windows::Forms::Label());
 			this->label2 = (gcnew System::Windows::Forms::Label());
 			this->btnRun = (gcnew System::Windows::Forms::Button());
@@ -128,8 +130,8 @@ namespace AnomalyDetection {
 			// groupBox2
 			// 
 			this->groupBox2->Controls->Add(this->txtBoxMultiline);
-			this->groupBox2->Controls->Add(this->button2);
-			this->groupBox2->Controls->Add(this->textBox3);
+			this->groupBox2->Controls->Add(this->btnViewReport);
+			this->groupBox2->Controls->Add(this->txtScore);
 			this->groupBox2->Controls->Add(this->label3);
 			this->groupBox2->Controls->Add(this->label2);
 			this->groupBox2->Location = System::Drawing::Point(12, 171);
@@ -148,27 +150,31 @@ namespace AnomalyDetection {
 			this->txtBoxMultiline->TabIndex = 9;
 			this->txtBoxMultiline->Text = L"";
 			// 
-			// button2
+			// btnViewReport
 			// 
-			this->button2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->btnViewReport->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button2->Location = System::Drawing::Point(309, 117);
-			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(75, 84);
-			this->button2->TabIndex = 8;
-			this->button2->Text = L"View Report";
-			this->button2->UseVisualStyleBackColor = true;
+			this->btnViewReport->Location = System::Drawing::Point(309, 117);
+			this->btnViewReport->Name = L"btnViewReport";
+			this->btnViewReport->Size = System::Drawing::Size(75, 84);
+			this->btnViewReport->TabIndex = 8;
+			this->btnViewReport->Text = L"View Report";
+			this->btnViewReport->UseVisualStyleBackColor = true;
+			this->btnViewReport->Click += gcnew System::EventHandler(this, &MainForm::btnViewReport_Click);
 			// 
-			// textBox3
+			// txtScore
 			// 
-			this->textBox3->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(255)),
+			this->txtScore->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(255)),
 				static_cast<System::Int32>(static_cast<System::Byte>(192)));
-			this->textBox3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 41.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->txtScore->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 41.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->textBox3->Location = System::Drawing::Point(309, 40);
-			this->textBox3->Name = L"textBox3";
-			this->textBox3->Size = System::Drawing::Size(74, 70);
-			this->textBox3->TabIndex = 7;
+			this->txtScore->Location = System::Drawing::Point(309, 40);
+			this->txtScore->MaxLength = 2;
+			this->txtScore->Name = L"txtScore";
+			this->txtScore->ReadOnly = true;
+			this->txtScore->Size = System::Drawing::Size(74, 70);
+			this->txtScore->TabIndex = 7;
+			this->txtScore->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
 			// 
 			// label3
 			// 
@@ -254,10 +260,11 @@ namespace AnomalyDetection {
 #pragma endregion
 	private: System::Void btnBrowse_Click(System::Object^  sender, System::EventArgs^  e);
 			 System::Void btnRun_Click(System::Object^  sender, System::EventArgs^  e);
-	public: void MainForm::SetText(String^ string);
-			void MainForm::ClearScreen();
+			 System::Void btnViewReport_Click(System::Object^  sender, System::EventArgs^  e);
+	public: void SetText(String^ string);
+			void SetScore(int score);
+			void ClearScreen();
 			delegate void MainForm::SetTextUI(String^ string);
 			delegate void MainForm::ClearScreenUI();
-			void MainForm::SetTextBox(String^ str);
 };
 }

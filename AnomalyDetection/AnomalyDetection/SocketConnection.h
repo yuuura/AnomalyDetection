@@ -1,25 +1,22 @@
 #pragma once
 
-// link with Ws2_32.lib
-#pragma comment(lib,"ws2_32.lib")
-
 #include <windows.h>
 #include "MainForm.h"
+#include "Profile.h"
 
 using namespace AnomalyDetection;
-using namespace System::Threading;
 
 ref class WinsockConnection
 {
 private:
 	MainForm^ form;
+	Profiles^ prof;
 	char* IpAddress = "127.0.0.1";
 	u_short host = 35000;
-	BOOL initialized;
+	bool initialized;
 	void Initialize();
 
 public:
-	WinsockConnection(MainForm^ form);
+	WinsockConnection(MainForm^ form, Profiles^ prof);
 	void Connection();
-	//void WinsockConnection::Set()
 };

@@ -1,0 +1,68 @@
+#Ransomware
+10
+WSAStartup
+FindNextFile
+CryptEncrypt
+
+#Ransomware
+7
+FindNextFile
+CryptEncrypt
+
+#Port Scanning
+2
+WSAStartup
+htons
+htons
+
+#Port Scanning
+4
+WSAStartup
+htons
+htons
+htons
+
+#Port Scanning
+8
+WSAStartup
+htons
+htons
+htons
+htons
+
+#Port Scanning
+10
+WSAStartup
+htons
+htons
+htons
+htons
+htons
+
+#Security center service stopped
+10
+CreateProcess = net stop wscsvc
+
+#Security center service stopped
+10
+OpenSCManager
+OpenService = wscsvc
+ControlService = "Stop the service."
+
+#Firewall turned off
+10
+CreateProcess = netsh firewall set opmode mode = disable
+
+#Firewall turned off
+10
+CreateProcess = "reg add HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile /v EnableFirewall /t REG_DWORD /d 0 /f"
+
+#Firewall service stopped
+10
+OpenSCManager
+OpenService = MpsSvc
+ControlService = "Stop the service."
+
+#Firewall service stopped
+10
+CreateProcess = net stop MpsSvc
