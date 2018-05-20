@@ -1,0 +1,31 @@
+
+UseDll
+
+=========================================================
+
+Description:
+
+"UseDll" shows the message window, and then uses the dll 
+file (DLL.dll) to create the text file.
+
+This is a safe program and shows that the system can hook 
+WinAPI functions not only from .exe files, but also from .dll.
+
+=========================================================
+
+Instructions:
+
+Method 1:
+
+1. Run AnomalyDetection.exe
+2. Select UseDLL.exe
+3. Click "Create file to scan"
+4. Run UseDLL_injected.exe
+5. Click "View Report".
+
+Method 2:
+
+1. Run AnomalyDetection.exe
+2. Go to "Results" directory
+3. Run "UseDLL_injected.exe"
+4. Click "View Report".

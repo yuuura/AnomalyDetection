@@ -1,0 +1,36 @@
+
+ServiceControl
+
+=========================================================
+
+Description:
+
+"ServiceControl" stops the "Security Center" service using 
+the connection to the service control manager.
+
+An anomaly detection detects a file as malicious software 
+ONLY if the Security Center service is in working state, 
+otherwise this program will not be recognized as malware.
+
+(*) The service control manager code is taken from Microsoft site:
+https://msdn.microsoft.com/en-us/library/windows/desktop/ms686335(v=vs.85).aspx
+
+=========================================================
+
+Instructions:
+
+Method 1:
+
+1. Run AnomalyDetection.exe
+2. Select ServiceControl.exe
+3. Click "Create file to scan"
+4. Run ServiceControl_injected.exe
+5. Click "View Report".
+
+Method 2:
+
+1. Run AnomalyDetection.exe
+2. Go to "Results" directory
+3. Run "ServiceControl_injected.exe"
+4. Click "View Report".
+

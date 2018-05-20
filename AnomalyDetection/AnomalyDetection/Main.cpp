@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include "Main.h"
 #include "SocketConnection.h"
 #include "Hook.h"
@@ -16,7 +17,7 @@ const char* reportFileName = "Report.txt";
 void MainForm::btnBrowse_Click(System::Object^ sender, System::EventArgs^ e)
 {
 	OpenFileDialog^ openFileDialog = gcnew OpenFileDialog;
-	openFileDialog->Filter = "exe files (*.exe)|*.exe";
+	openFileDialog->Filter = "All files (*.exe; *.scr)|*.exe;*.scr|Exe files (*.exe)|*.exe|Screen saver files (*.scr)|*.scr";
 	openFileDialog->ShowDialog();
 	txtBoxFile->Text = openFileDialog->FileName;
 }
@@ -42,14 +43,14 @@ void MainForm::btnRun_Click(System::Object^ sender, System::EventArgs^ e)
 				CopyDll(newFileName);
 				SetText(String::Concat("A new file \"", gcnew String(newFileName), "\" created.\n"));
 				if (InjectDll(this, newFileName, SectionName, SectionSize))
-					SetText(gcnew String("Dll injected. Now run a new file!\n"));
+					SetText(String::Concat(gcnew String("Run a \""), gcnew String(newFileName), gcnew String("\" file!\n")));
 			}
 	}
 	catch (const std::exception& e)
 	{
 		SetText(gcnew String(e.what()));
 	}
-	else SetText(gcnew String("(*) No file choosed.\n"));
+	else SetText(gcnew String("(*) No file chosen.\n"));
 }
 void MainForm::SetScore(int score)
 {
@@ -83,7 +84,7 @@ void MainForm::ClearScreen()
 void CopyDll(char* fileName)
 {
 	std::string str(fileName);
-	std::string s = str.substr(0, str.find("\\")) + "\\" + DLL_NAME;
+	std::string s = str.substr(0, str.find_last_of("\\")) + "\\" + DLL_NAME;
 	std::string dstr(DLL_NAME);
 	std::string d = dllFolderlocation + dstr;
 	CopyFile(d.c_str(), s.c_str(), FALSE);
@@ -93,7 +94,12 @@ void CopyDll(char* fileName)
 char* BackupFile(char* fileName)
 {
 	std::string str(fileName);
-	std::string s = str.substr(0, str.find(".exe")) + "_injected.exe";
+	std::string s= str.substr(str.find("."));
+	if(str.substr(str.find(".")) == ".scr")
+		s = str.substr(0, str.find(".")) + "_injected.scr";
+	else if(str.substr(str.find(".")) == ".exe")
+		s = str.substr(0, str.find(".")) + "_injected.exe";
+	else throw std::exception("(*) The file is not compatible for scan.\n");
 	CopyFile(fileName, s.c_str(), FALSE);
 	char *cstr = new char[s.length() + 1];
 	strcpy(cstr, s.c_str());
@@ -104,7 +110,7 @@ bool CheckFileCompatibility(char* fileName)
 {
 	DWORD lpBinaryType[100];
 	if ((GetBinaryType(fileName, lpBinaryType) == 0) && lpBinaryType != SCS_32BIT_BINARY) {
-		throw std::exception("The file is not compatible for scan.\n");
+		throw std::exception("(*) The file is not compatible for scan.\n");
 	}
 	return true;
 }
@@ -119,16 +125,18 @@ char* SystemStringToCharPointer(String^ string)
 }
 
 [STAThread]
-int main(array<String^>^ args) {
+int main() {
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
 	MainForm ^form = gcnew MainForm();
-
+	
 	// Prepare profile data
 	Profiles^ profile = gcnew Profiles(form, gcnew String(reportFileName), gcnew String(reportFolderLocation));
 
 	// Initiate a connection with a client
-	(gcnew Thread(gcnew ThreadStart(gcnew WinsockConnection(form, profile), &WinsockConnection::Connection)))->Start();
+	Thread^ thread1 = gcnew Thread(gcnew ThreadStart(gcnew WinsockConnection(form, profile), &WinsockConnection::Connection));
+	thread1->IsBackground = true;
+	thread1->Start();
 
 	Application::Run(form);
 	return 0;

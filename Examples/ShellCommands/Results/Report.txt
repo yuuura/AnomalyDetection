@@ -1,0 +1,13 @@
+5/20/2018 6:36:55 PM
+			*** Report file ***
+
+(!) Possible of malware "Firewall turned off" has been detected.
+A score 10 has been given to this profile.
+
+
+
+Creating process...
+Command line to be executed: cmd.exe /C "netsh firewall set opmode mode = disable"
+Create process succeeded.
+This file is a threat.
+

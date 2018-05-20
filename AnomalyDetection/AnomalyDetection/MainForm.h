@@ -56,6 +56,7 @@ namespace AnomalyDetection {
 	private: System::Windows::Forms::Label^  label5;
 	private: System::Windows::Forms::OpenFileDialog^  openFileDialog;
 	private: System::Windows::Forms::RichTextBox^  txtBoxMultiline;
+	private: System::Windows::Forms::PictureBox^  pictureBox1;
 	protected:
 
 	private:
@@ -71,6 +72,7 @@ namespace AnomalyDetection {
 		/// </summary>
 		void InitializeComponent(void)
 		{
+			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(MainForm::typeid));
 			this->btnBrowse = (gcnew System::Windows::Forms::Button());
 			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
 			this->txtBoxFile = (gcnew System::Windows::Forms::TextBox());
@@ -85,8 +87,10 @@ namespace AnomalyDetection {
 			this->label4 = (gcnew System::Windows::Forms::Label());
 			this->label5 = (gcnew System::Windows::Forms::Label());
 			this->openFileDialog = (gcnew System::Windows::Forms::OpenFileDialog());
+			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->groupBox1->SuspendLayout();
 			this->groupBox2->SuspendLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// btnBrowse
@@ -206,7 +210,7 @@ namespace AnomalyDetection {
 			this->btnRun->Name = L"btnRun";
 			this->btnRun->Size = System::Drawing::Size(173, 31);
 			this->btnRun->TabIndex = 3;
-			this->btnRun->Text = L"Run";
+			this->btnRun->Text = L"Create file to scan";
 			this->btnRun->UseVisualStyleBackColor = false;
 			this->btnRun->Click += gcnew System::EventHandler(this, &MainForm::btnRun_Click);
 			// 
@@ -236,23 +240,36 @@ namespace AnomalyDetection {
 			// 
 			this->openFileDialog->FileName = L"openFileDialog";
 			// 
+			// pictureBox1
+			// 
+			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
+			this->pictureBox1->Location = System::Drawing::Point(238, 12);
+			this->pictureBox1->Name = L"pictureBox1";
+			this->pictureBox1->Size = System::Drawing::Size(131, 90);
+			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::Zoom;
+			this->pictureBox1->TabIndex = 6;
+			this->pictureBox1->TabStop = false;
+			// 
 			// MainForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::SystemColors::GradientActiveCaption;
 			this->ClientSize = System::Drawing::Size(408, 419);
+			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->label5);
 			this->Controls->Add(this->label4);
 			this->Controls->Add(this->btnRun);
 			this->Controls->Add(this->groupBox2);
 			this->Controls->Add(this->groupBox1);
+			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedToolWindow;
 			this->Name = L"MainForm";
 			this->Text = L"Anomaly Detection";
 			this->groupBox1->ResumeLayout(false);
 			this->groupBox1->PerformLayout();
 			this->groupBox2->ResumeLayout(false);
 			this->groupBox2->PerformLayout();
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 

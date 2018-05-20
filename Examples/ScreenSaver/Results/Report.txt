@@ -1,0 +1,55 @@
+5/20/2018 7:18:49 PM
+			*** Report file ***
+
+
+
+Existing file openened: C:\ProgramData\NVIDIA Corporation\Drs\nvAppTimestamps
+File Access: WRITE  READ 
+
+
+Existing file openened: C:\ProgramData\NVIDIA Corporation\Drs\nvdrssel.bin
+File Access: WRITE  READ 
+
+
+Reading file: C:\ProgramData\NVIDIA Corporation\Drs\nvAppTimestamps
+
+(*) Error while reading file name.
+
+
+Existing file openened: C:\ProgramData\NVIDIA Corporation\Drs\nvdrsdb0.bin
+File Access: READ 
+
+
+Writing to a file: C:\ProgramData\NVIDIA Corporation\Drs\nvAppTimestamps
+
+
+Close file: C:\ProgramData\NVIDIA Corporation\Drs\nvAppTimestamps
+
+
+Existing file openened: c:\finalproject\project\x86\catvisfoundation.dll
+File Access: READ 
+
+
+Existing file openened: c:\finalproject\project\x86\catviz.dll
+File Access: READ 
+
+
+Existing file openened: c:\finalproject\project\x86\aurora.dll
+File Access: READ 
+
+
+Existing file openened: c:\finalproject\project\x86\visualizationfoundation.dll
+File Access: READ 
+
+
+Existing file openened: c:\finalproject\project\x86\dsyvisrasterizerogl.dll
+File Access: READ 
+
+
+Existing file openened: c:\finalproject\project\x86\petromod_nvidia_profile_identifier.ogl
+File Access: READ 
+
+
+Close file: C:\ProgramData\NVIDIA Corporation\Drs\nvdrsdb0.bin
+This file is safe to use.
+

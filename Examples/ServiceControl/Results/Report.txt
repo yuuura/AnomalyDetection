@@ -1,0 +1,26 @@
+5/20/2018 6:23:13 PM
+			*** Report file ***
+
+
+
+Establishing a connection to the service control manager...
+Target machine: Local machine.
+Desired access: "All access reights."
+Connection to service control manager succeeded.
+
+
+Opening service...
+Service name: wscsvc
+Desired access: "Enumerate all the services dependent on the service.""Ask the service control manager about the status of the service and receive notification when a service changes status.""Stop the service."
+Open service succeeded.
+(!) Possible of malware "Security center service stopped" has been detected.
+A score 10 has been given to this profile.
+
+
+
+Sending control code to a service...
+Service: wscsvc
+Action: "Stop the service."
+Action service performed.
+This file is a threat.
+

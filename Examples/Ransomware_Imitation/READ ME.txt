@@ -1,0 +1,43 @@
+
+Ransomware_Imitation
+
+=========================================================
+
+Description:
+
+"Ransomware_Imitation" imitates the Ransomware malware.
+
+For convenience and demonstration, this program calls the 
+server.exe program, which first loads the server, then calls 
+the client function and initiates a connection between them.
+
+The server sends the keys to the client, and then the client starts 
+searching for files in the "RansomwareFilesArea" directory.
+
+When the search is complete, the encryption file step begins.
+
+For convenience and demonstration, it encrypts only .txt and .docx files.
+
+The encrypted files created in folder "RansomwareFilesArea".
+
+(*) The encryption code is taken from Microsoft site:
+https://msdn.microsoft.com/en-us/library/windows/desktop/aa382358(v=vs.85).aspx
+
+=========================================================
+
+Instructions:
+
+Method 1:
+
+1. Run AnomalyDetection.exe
+2. Select Ransomware_Imitation.exe
+3. Click "Create file to scan"
+4. Run Ransomware_Imitation_injected.exe
+5. Click "View Report".
+
+Method 2:
+
+1. Run AnomalyDetection.exe
+2. Go to "Results" directory
+3. Run "Ransomware_Imitation_injected.exe"
+4. Click "View Report".

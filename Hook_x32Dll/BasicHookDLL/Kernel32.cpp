@@ -337,11 +337,12 @@ BOOL WINAPI NewCloseHandle(HANDLE hObject)
 	strcat(buffer, "\n\nClose file: ");
 	int index = FileHandleFindElement(hObject);
 	if (index >= 0)
+	{
 		strcat(buffer, fileHandleArray[index].lpFileName);
-	else strcat(buffer, " (*) Error while reading file name.");
-	FileHandleDeleteElement(hObject);
-	
-	send(Connection, buffer, sizeof(buffer), NULL);
-	Sleep(SLEEP_TIME);
+		FileHandleDeleteElement(hObject);
+
+		send(Connection, buffer, sizeof(buffer), NULL);
+		Sleep(SLEEP_TIME);
+	}
 	return OldCloseHandleResult;
 }

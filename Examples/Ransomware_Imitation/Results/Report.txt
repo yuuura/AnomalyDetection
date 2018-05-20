@@ -1,0 +1,134 @@
+5/20/2018 4:28:22 PM
+			*** Report file ***
+
+
+
+Creating process...
+Name of module to be executed: C:\Windows\system32\cmd.exe
+Command line to be executed: C:\Windows\system32\cmd.exe /c call Server.exe
+Create process succeeded.
+
+
+Winsock initialization started.
+Winsock initialization completed.
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Port: 37000
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Connection to socket completed.
+
+
+Search first file: RansomwareFilesArea\*.*
+First file found: .
+
+
+Search file: RansomwareFilesArea\*.*
+File found: ..
+
+
+Search file: RansomwareFilesArea\*.*
+File found: Power Point file.pptx
+
+
+Search file: RansomwareFilesArea\*.*
+File found: Text file.txt
+
+
+Search file: RansomwareFilesArea\*.*
+File found: Text file_encrypted.txt
+
+
+Search file: RansomwareFilesArea\*.*
+File found: Word file.docx
+
+
+Search file: RansomwareFilesArea\*.*
+File found: Word file_encrypted.docx
+
+
+Search file: RansomwareFilesArea\*.*
+
+
+Existing file openened: RansomwareFilesArea\Text file.txt
+File Access: "List the contents of the directory"  "Read the corresponding file or directory data" 
+
+
+Existing file openened: RansomwareFilesArea\Text file_encrypted.txt
+File Access:  "Create a file in the directory"  "Write data to the file" 
+
+
+Cryptography service provider: Microsoft Enhanced Cryptographic Provider v1.0
+Provider type: PROV_RSA_FULL
+Requiring Cryptography service provider succeeds.
+
+
+Hash data: Ransomware
+Hashing data succeeds.
+
+
+Reading file: RansomwareFilesArea\Text file.txt
+(!) Possible of malware "Ransomware" has been detected.
+A score 10 has been given to this profile.
+
+
+
+Encrypting data.
+Encrypt File: RansomwareFilesArea\Text file.txt
+
+
+Writing to a file: RansomwareFilesArea\Text file_encrypted.txt
+
+
+Close file: RansomwareFilesArea\Text file.txt
+
+
+Close file: RansomwareFilesArea\Text file_encrypted.txt
+
+
+Existing file openened: RansomwareFilesArea\Word file.docx
+File Access: "List the contents of the directory"  "Read the corresponding file or directory data" 
+
+
+Existing file openened: RansomwareFilesArea\Word file_encrypted.docx
+File Access:  "Create a file in the directory"  "Write data to the file" 
+
+
+Cryptography service provider: Microsoft Enhanced Cryptographic Provider v1.0
+Provider type: PROV_RSA_FULL
+Requiring Cryptography service provider succeeds.
+
+
+Hash data: Ransomware
+Hashing data succeeds.
+
+
+Reading file: RansomwareFilesArea\Word file.docx
+
+
+Encrypting data.
+Encrypt File: RansomwareFilesArea\Word file.docx
+
+
+Writing to a file: RansomwareFilesArea\Word file_encrypted.docx
+
+
+Close file: RansomwareFilesArea\Word file.docx
+
+
+Close file: RansomwareFilesArea\Word file_encrypted.docx
+
+
+Creating process...
+Name of module to be executed: C:\Windows\system32\cmd.exe
+Command line to be executed: C:\Windows\system32\cmd.exe /c pause
+Create process succeeded.
+This file is a threat.
+

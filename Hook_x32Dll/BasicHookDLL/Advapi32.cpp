@@ -109,7 +109,7 @@ SC_HANDLE WINAPI NewOpenServiceW(SC_HANDLE hSCManager, LPCWSTR lpServiceName, DW
 	if ((dwDesiredAccess & SERVICE_STOP) == SERVICE_STOP) strcat(buffer, "\"Stop the service.\"");
 	if ((dwDesiredAccess & SERVICE_USER_DEFINED_CONTROL) == SERVICE_USER_DEFINED_CONTROL) strcat(buffer, "\"Specify a user-defined control code.\"");
 
-	SC_HANDLE OldOpenServiceWResult = OldOpenServiceW(hSCManager, UnicodeToMByte(lpServiceName), dwDesiredAccess);
+	SC_HANDLE OldOpenServiceWResult = OldOpenServiceW(hSCManager, lpServiceName, dwDesiredAccess);
 	srvHandle = OldOpenServiceWResult;
 	srvName = UnicodeToMByte(lpServiceName);
 	if (OldOpenServiceWResult != NULL)
@@ -155,14 +155,14 @@ SC_HANDLE WINAPI NewOpenSCManagerA(LPCTSTR lpMachineName, LPCTSTR lpDatabaseName
 	return OldOpenSCManagerAResult;
 }
 
-SC_HANDLE WINAPI NewOpenSCManagerW(LPCWSTR lpMachineName, LPCTSTR lpDatabaseName, DWORD dwDesiredAccess)
+SC_HANDLE WINAPI NewOpenSCManagerW(LPCTSTR lpMachineName, LPCTSTR lpDatabaseName, DWORD dwDesiredAccess)
 {
 	char buffer[BUFFER_SIZE] = "OpenSCManager ";
 	strcat(buffer, "\n\nEstablishing a connection to the service control manager...");
 	if (lpMachineName != NULL)
 	{
 		strcat(buffer, "\nTarget machine: ");
-		strcat(buffer, UnicodeToMByte(lpMachineName));
+		strcat(buffer, UnicodeToMByte((LPCWSTR)lpMachineName));
 	}
 	else
 		strcat(buffer, "\nTarget machine: Local machine.");
@@ -179,10 +179,10 @@ SC_HANDLE WINAPI NewOpenSCManagerW(LPCWSTR lpMachineName, LPCTSTR lpDatabaseName
 	case SC_MANAGER_QUERY_LOCK_STATUS: strcat(buffer, "\"Retrieve the lock status information for the database.\"");
 	}
 
-	SC_HANDLE OldOpenSCManagerWResult = OldOpenSCManagerW(UnicodeToMByte(lpMachineName), lpDatabaseName, dwDesiredAccess);
-	if (OldOpenSCManagerWResult != NULL)
+	SC_HANDLE OldOpenSCManagerWResult = OldOpenSCManagerW(lpMachineName, lpDatabaseName, dwDesiredAccess);
+	/*if (!OldOpenSCManagerWResult)
 		strcat(buffer, "\nConnection to service control manager succeeded.");
-	else strcat(buffer, "\nConnection to service control manager failed.");
+	else strcat(buffer, "\nConnection to service control manager failed.");*/
 	
 	send(Connection, buffer, sizeof(buffer), NULL);
 	Sleep(SLEEP_TIME);
@@ -193,7 +193,7 @@ BOOL WINAPI NewCryptHashData(HCRYPTHASH hHash, BYTE *pbData, DWORD dwDataLen, DW
 {
 	char buffer[BUFFER_SIZE] = "CryptHashData ";
 	strcat(buffer, "\n\nHash data: ");
-	CString s = CString((const wchar_t*)pbData);
+	CString s = CString((const char*)pbData);
 	strcat(buffer, s);
 
 	BOOL OldCryptHashDataResult = OldCryptHashData(hHash, pbData, dwDataLen, dwFlags);
@@ -258,7 +258,7 @@ BOOL WINAPI NewCryptAcquireContextW(HCRYPTPROV *phProv, LPCTSTR pszContainer, LP
 	case PROV_SSL: strcat(buffer, "PROV_SSL"); break;
 	}
 
-	BOOL OldCryptAcquireContextWResult = OldCryptAcquireContextW(phProv, pszContainer, pszProvider, dwProvType, dwFlags);
+	BOOL OldCryptAcquireContextWResult = OldCryptAcquireContextW(phProv, pszContainer, UnicodeToMByte((LPCWSTR)pszProvider), dwProvType, dwFlags);
 	if (OldCryptAcquireContextWResult)
 		strcat(buffer, "\nRequiring Cryptography service provider succeeds.");
 	else strcat(buffer, "\nRequiring Cryptography service provider fails.");

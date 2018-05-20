@@ -1,0 +1,12 @@
+5/20/2018 4:51:14 PM
+			*** Report file ***
+
+
+
+New file created: FILE_FROM_DLL.txt
+File Access: EXECUTE READ WRITE  EXECUTE 
+
+
+Close file: FILE_FROM_DLL.txt
+This file is safe to use.
+

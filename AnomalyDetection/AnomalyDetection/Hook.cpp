@@ -8,7 +8,7 @@ const int MAX_ALLOWED_SEC_NAME = 8;
 const int FreeSpace = 8;	// Free space from the begining of section (numbrer of dwords)
 char* SectionName = ".Hook";
 char* DLL_NAME = "Hook_x86.dll";
-const DWORD SectionSize = 500;
+const DWORD SectionSize = 1000;
 
 bool CheckSectionExist(char* filepath)
 {

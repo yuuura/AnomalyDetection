@@ -1,0 +1,119 @@
+5/19/2018 6:21:48 PM
+			*** Report file ***
+
+
+
+Winsock initialization started.
+Winsock initialization completed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 135
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket completed.
+
+
+Winsock initialization started.
+Winsock initialization completed.
+
+
+Address family: IPv4
+Protocol: IGMP
+(!) Possible of malware "Port Scanning" has been detected.
+A score 2 has been given to this profile.
+
+
+
+Port: 136
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Winsock initialization started.
+Winsock initialization completed.
+
+
+Address family: IPv4
+Protocol: IGMP
+(!) Possible of malware "Port Scanning" has been detected.
+A score 4 has been given to this profile.
+
+
+
+Port: 137
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Winsock initialization started.
+Winsock initialization completed.
+
+
+Address family: IPv4
+Protocol: IGMP
+(!) Possible of malware "Port Scanning" has been detected.
+A score 8 has been given to this profile.
+
+
+
+Port: 138
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Winsock initialization started.
+Winsock initialization completed.
+
+
+Address family: IPv4
+Protocol: IGMP
+(!) Possible of malware "Port Scanning" has been detected.
+A score 10 has been given to this profile.
+
+
+
+Port: 139
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+
+
+Winsock initialization started.
+Winsock initialization completed.
+
+
+Address family: IPv4
+Protocol: IGMP
+
+
+Port: 140
+
+
+Connecting with IP address: 127.0.0.1
+
+
+Connection to socket failed.
+This file is a threat.
+
